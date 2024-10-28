@@ -2,8 +2,8 @@ const school = 'RAJ UK Uttara Model School';
 // console.log(school);
 
 const subject ='Chemistry';
-const book = 'chemsitry';
-if(subject == book)
+const book = 'Chemistry';
+if(subject.toUpperCase() === book.toUpperCase())
 {
     console.log("Same Same");
 }
